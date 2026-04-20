@@ -1,0 +1,38 @@
+{
+  "GP2PipelineMultiAncestry.ancestries": ["EUR", "AFR", "EAS", "CAS", "MDE"],
+
+  "GP2PipelineMultiAncestry.gene_set": "purine_metabolism",
+
+  "GP2PipelineMultiAncestry.workspace_bucket": "gs://fc-secure-68f99717-6130-441e-9143-88153e417b37",
+
+  "GP2PipelineMultiAncestry.gp2_bucket": "gs://gp2tier2/release10",
+
+  "GP2PipelineMultiAncestry.billing_project": "terra-1b84c396",
+
+  "GP2PipelineMultiAncestry.gene_set_csv": "gs://fc-secure-68f99717-6130-441e-9143-88153e417b37/data/gene_sets/purine_metabolism_combined.csv",
+
+  "GP2PipelineMultiAncestry.vep_cache_dir": "/home/jupyter/.vep",
+  "GP2PipelineMultiAncestry.cadd_snv": "/home/jupyter/tools/vep_plugins/CADD/whole_genome_SNVs.tsv.gz",
+  "GP2PipelineMultiAncestry.cadd_indel": "/home/jupyter/tools/vep_plugins/CADD/gnomad.genomes.r3.0.indel.tsv.gz",
+  "GP2PipelineMultiAncestry.loftee_dir": "/home/jupyter/.vep/Plugins/loftee",
+
+  "GP2PipelineMultiAncestry.magma_gene_loc": "gs://fc-secure-68f99717-6130-441e-9143-88153e417b37/tools/magma_ref/NCBI38.gene.loc",
+
+  "GP2PipelineMultiAncestry.covariate_files": {
+    "EUR": "gs://fc-secure-68f99717-6130-441e-9143-88153e417b37/data/covariates/covariate_EUR.csv",
+    "AFR": "gs://fc-secure-68f99717-6130-441e-9143-88153e417b37/data/covariates/covariate_AFR.csv",
+    "EAS": "gs://fc-secure-68f99717-6130-441e-9143-88153e417b37/data/covariates/covariate_EAS.csv",
+    "CAS": "gs://fc-secure-68f99717-6130-441e-9143-88153e417b37/data/covariates/covariate_CAS.csv",
+    "MDE": "gs://fc-secure-68f99717-6130-441e-9143-88153e417b37/data/covariates/covariate_MDE.csv"
+  },
+
+  "GP2PipelineMultiAncestry.vep_cpus": 8,
+  "GP2PipelineMultiAncestry.vep_mem_gb": 16,
+  "GP2PipelineMultiAncestry.saige_cpus": 4,
+  "GP2PipelineMultiAncestry.saige_mem_gb": 16,
+  "GP2PipelineMultiAncestry.regenie_cpus": 4,
+  "GP2PipelineMultiAncestry.regenie_mem_gb": 16,
+  "GP2PipelineMultiAncestry.magma_cpus": 2,
+  "GP2PipelineMultiAncestry.magma_mem_gb": 8,
+  "GP2PipelineMultiAncestry.disk_type": "SSD"
+}
