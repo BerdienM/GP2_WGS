@@ -1,4 +1,4 @@
-versionL 1.2
+version: 1.2
 workflows:
   - name: gp2_purine_metabolism_pipeline
     subclass: WDL
