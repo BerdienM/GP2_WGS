@@ -1,6 +1,7 @@
 version: 1.2
 workflows:
-  name: gp2_purine_metabolism_pipeline
-    primaryDescriptorPath: /gp2_pipeline.wdl
-    testParameterFiles:
-    /gp2_pipeline_inputs.json
+- name: gp2_purine_metabolism_pipeline
+  subclass: WDL
+  primaryDescriptorPath: /gp2_pipeline.wdl
+  testParameterFiles:
+  - /gp2_pipeline_inputs.json
